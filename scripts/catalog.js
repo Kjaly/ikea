@@ -1,4 +1,6 @@
-'use strict'
+
+export const catalog = () => {
+
 const btnBurger = document.querySelector('.btn-burger'),
     catalog = document.querySelector('.catalog'),
     btnClose = document.querySelector('.btn-close'),
@@ -46,3 +48,4 @@ document.addEventListener('keydown', (e) => {
 })
 catalog.addEventListener('click', openSubMenu)
 btnReturn.addEventListener('click', closeSubMenu)
+}
