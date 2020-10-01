@@ -60,12 +60,10 @@ export const getData = {
 
     subCatalog(callback){
         this.get((data) => {
-            this.get((data) => {
-                const result = data.map((item) => item[PARAM.subcat]).filter((value,index,self)=>{
-                    return self.indexOf(value) === index
-                });
-                callback(result)
-            })
+            const result = data.map((item) => item[PARAM.subcat]).filter((value,index,self)=>{
+                return self.indexOf(value) === index
+            });
+            callback(result)
         })
     }
 }
