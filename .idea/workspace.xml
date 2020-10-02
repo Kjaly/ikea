@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8e7c0f3-3d9b-4db8-9296-b5eb14ddbada" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/generateGoodsPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/dataBase.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/dataBase.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/goods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/catalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/generateCatalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/generateCatalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/generateFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/generateFooter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/generateSubcatalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/generateSubcatalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/getData.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/getData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/loadData.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/loadData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +61,7 @@
       <workItem from="1601497774713" duration="10241000" />
       <workItem from="1601558657589" duration="2717000" />
       <workItem from="1601639268007" duration="779000" />
-      <workItem from="1601640399987" duration="13675000" />
+      <workItem from="1601640399987" duration="13947000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1601483352915</created>
@@ -94,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601561232716</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" third commit">
+      <created>1601654579183</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601654579183</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,13 +100,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value=" third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value=" third commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="538" y="13" key="CommitChangelistDialog2" timestamp="1601561231806">
+    <state x="538" y="13" key="CommitChangelistDialog2" timestamp="1601654577146">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="538" y="13" key="CommitChangelistDialog2/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1601561231806" />
+    <state x="538" y="13" key="CommitChangelistDialog2/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1601654577146" />
     <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1601483227921">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -122,10 +120,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="162" y="77" key="SettingsEditor/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1601640388035" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1601561236191">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1601654583768">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1601561236191" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1601654583768" />
     <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601483432925">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -939,7 +939,9 @@ select {
 		grid-column-start: 1;
 		margin: 0;
 	}
-
+    .catalog-btn{
+		transform: rotate(180deg);
+	}
 	.footer {
 		-ms-grid-rows: auto;
 		grid-template-rows: auto;
