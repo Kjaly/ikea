@@ -15,6 +15,11 @@ export const getData = {
         this.get((data) => {
             const result = data.filter((item) => list.includes(item.id))
             callback(result)
+            if (result.length===0){
+                callback(`<div>Ваш список желаний пуст</div>`)
+            }else{
+                callback(result)
+            }
         })
     },
     item(value, callback) {
@@ -44,25 +49,36 @@ export const getData = {
                     if(PARAM.search.includes(prop) && item[prop].toLowerCase().includes(value.toLowerCase())){
                         return true;
                     }
+
                 }
             })
-            callback(result)
+            if (result.length===0){
+                callback(`<div>По вашему запросу ничего не найдено</div>`)
+            }else{
+                callback(result)
+            }
+
         })
     },
     catalog(callback){
         this.get((data) => {
-            const result = data.map((item) => item[PARAM.cat]).filter((value,index,self)=>{
+            const result = data.map((item) => item.category).filter((value,index,self)=>{
                 return self.indexOf(value) === index
             });
             callback(result)
         })
     },
 
-    subCatalog(callback){
+    subCatalog(value,callback){
         this.get((data) => {
-            const result = data.map((item) => item[PARAM.subcat]).filter((value,index,self)=>{
-                return self.indexOf(value) === index
-            });
+            const result = data
+                .filter(item => item.category===value)
+                .reduce((arr,item)=> {
+                    if(!arr.includes(item.subcategory)){
+                        arr.push(item.subcategory)
+                    }
+                    return arr;
+                },[])
             callback(result)
         })
     }
