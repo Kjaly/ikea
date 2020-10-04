@@ -14,12 +14,8 @@ export const getData = {
     wishList(list, callback) {
         this.get((data) => {
             const result = data.filter((item) => list.includes(item.id))
+
             callback(result)
-            if (result.length===0){
-                callback(`<div>Ваш список желаний пуст</div>`)
-            }else{
-                callback(result)
-            }
         })
     },
     item(value, callback) {
@@ -30,10 +26,11 @@ export const getData = {
     },
     cart(list, callback) {
         this.get((data) => {
-            const result = data.filter((item) => {
-                list.some(obj => obj.id === item.id)
-            })
+            let result = data.filter((item) =>
+                list.some((obj) => obj.id === item.id)
+            )
             callback(result)
+
         })
     },
     category(prop, value, callback) {
@@ -52,12 +49,7 @@ export const getData = {
 
                 }
             })
-            if (result.length===0){
-                callback(`<div>По вашему запросу ничего не найдено</div>`)
-            }else{
-                callback(result)
-            }
-
+            callback(result)
         })
     },
     catalog(callback){
